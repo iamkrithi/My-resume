@@ -1,0 +1,132 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #d714ca;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #e83eac;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    background-color: white;
+}
+
+h2 {
+    color: #444;
+}
+
+footer {
+    text-align: center;
+    /* padding: 1rem; */
+    background-color: #333;
+    color: white;
+    /* margin-top: 2rem; */
+}
+
+ul {
+    margin-top: 0.5rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+/* General Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures no double borders */
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray background for headers */
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff;
+}
+
+/* Optional: Hover effect for rows */
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Optional: Styling for the Education Table */
+.education-table {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the table header */
+.education-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+.shape{
+    padding:0;
+    margin:0;
+}
+
+
+
